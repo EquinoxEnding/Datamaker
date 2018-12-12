@@ -1,3 +1,4 @@
+// This part is used to make a sequence.
 #include <iostream>
 #include <windows.h>
 #include <cstdlib>
@@ -14,8 +15,6 @@ template < typename T >
         return rand () % mod ;
     }
 
-inline void Reset () { srand ( time ( NULL ) ) ; return ; }
-
 int main(){
     srand ( time ( NULL ) ) ;
     printf ("Please Set mod and N:\n") ;
@@ -24,8 +23,9 @@ int main(){
     F ( i , 1 , n ){
         int t = random ( mod ) ;
         printf ("%lld " , random ( mod ) ^ t ) ;
+        //Reset () ;
     }
     fclose ( stdout ) ;
-    fprintf ( stderr , "The data has successfully printed in Data.txt.\n") ;
-    Sleep (2000) ; return 0 ;
+    fprintf ( stderr , "The data has been printed in Data.txt successfully.\n") ;
+    Sleep ( 1750 ) ; return 0 ;
 }
