@@ -17,7 +17,7 @@ template < typename T >
 
 int main(){
     srand ( time ( NULL ) ) ;
-    printf ("Please Set mod and N:\n") ;
+    printf ("Please key in mod and N:\n") ;
     freopen ("Data.txt" , "w" , stdout ) ; 
     scanf ("%lld %lld" , & mod , & n ) ;
     F ( i , 1 , n ){

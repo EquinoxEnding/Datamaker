@@ -21,7 +21,7 @@ int main () {
     fprintf ( stderr , "If you want a 01 half-matrix , please press Y for yes else press N for no.\n" ) ;
     scanf ("%s" , opt ) ;
     if ( opt[0] == 'Y' ){
-        fprintf ( stderr , "Please key in the size of the half-matrix , n for lines and m for rows.\n") ;
+        fprintf ( stderr , "Please key in the size of the half-matrix , n for lines and m for columns.\n") ;
         scanf ("%lld%lld" , & n , & m ) ;
         fprintf ( stderr , "If you want me to print this size press Y else press N.\n") ;
         scanf ("%s" , opt ) ;
@@ -30,7 +30,7 @@ int main () {
     } else {
         fprintf ( stderr , "Please key in the data range,mod.\n") ;
         scanf ("%lld" , & mod  ) ;
-        fprintf ( stderr , "Please key in the size of half-matrix , n for lines and m for rows.\n") ;
+        fprintf ( stderr , "Please key in the size of half-matrix , n for lines and m for columns.\n") ;
         scanf ("%lld%lld" , & n , & m ) ;
         fprintf ( stderr , "If you want me to print this size press Y else press N.\n") ;
         scanf ("%s" , opt ) ;

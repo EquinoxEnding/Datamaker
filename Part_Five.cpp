@@ -19,7 +19,7 @@ template < typename T >
 int main () {
     srand ( time ( NULL ) ) ;
 	freopen ( "Data.txt" , "w" , stdout ) ;
-	fprintf ( stderr , "Please key in the size of Matrix,n lines ans n rows.\n") ;
+	fprintf ( stderr , "Please key in the size of Matrix,n lines ans n columns.\n") ;
     scanf ("%lld" , & n ) ; printf ("%lld\n" , n ) ;
     fprintf ( stderr , "Please key in the data range,mod.\n") ;
     scanf ("%lld" , & mod ) ;
