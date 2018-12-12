@@ -20,7 +20,7 @@ template < typename T >
     }
 
 int main () {
-    //freopen ( "Data.txt" , "w" , stdout ) ;
+    freopen ( "Data.txt" , "w" , stdout ) ;
     fprintf ( stderr , "Please key in the data of this Chrysanthemum figure,n.\n") ;
     scanf ("%lld" , & n ) ; printf ("%lld\n" , n ) ;
     fprintf ( stderr , "If you want the graph with value,press Y else press N.\n") ;
