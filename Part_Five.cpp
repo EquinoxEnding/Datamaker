@@ -13,7 +13,7 @@ LL mk[5005][5005] ;
 template < typename T >
     inline T random ( T mod ) {
         srand ( rand () ^ rand () ) ;
-        return rand () % mod ;
+        return ( rand () * 10000 + rand () ) % mod ;
     }
 
 int main () {
